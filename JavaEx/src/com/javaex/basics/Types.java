@@ -6,10 +6,28 @@ public class Types {
 	public static void main(String[] args) {
 	//	varEx();
 //		IntegerEx();
-		floatDoubleEx();
+		//floatDoubleEx();
+		booleanEx();
 	}
 		
-		// 실수형 데이터 타입
+			// 논리형 데이터 타입
+		private static void booleanEx() {
+			// 1byte: true or false
+			// 조건 분기, 반복문 등에 활용 -> 중요한 자료형이다
+			boolean b1 = true;
+			boolean b2 = false;
+			
+			System.out.println(b1);
+			System.out.println(b2);
+			
+			// 비교 연산, 논리 연산의 결과로 활용
+			int a = 7, b = 3;
+			boolean result a > b;
+			
+			System.out.println(result);
+		}
+	
+			// 실수형 데이터 타입
 		private static void floatDoubleEx() {
 			// float(4) < double(8)
 			float floatVar = 3.14159F; // 접미어 F or f
@@ -25,6 +43,11 @@ public class Types {
 			System.out.println(floatVar);
 			System.out.println(doubleVar);
 			
+			// 부동소수점 계산의 문제
+			// float, double은 정밀도를 포기하고
+			// 표현 범위만 넓힌 것이다
+			// 정밀 실수 처리에는 적합하지 않다
+			System.out.println(0.1 * 3);
 		}
 		// 정수형 데이터 타입
 	private static void IntegerEx() {
