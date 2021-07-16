@@ -5,11 +5,29 @@ package com.javaex.basics;
 public class Types {
 	public static void main(String[] args) {
 	//	varEx();
-		integerEx();
+//		IntegerEx();
+		floatDoubleEx();
 	}
 		
+		// 실수형 데이터 타입
+		private static void floatDoubleEx() {
+			// float(4) < double(8)
+			float floatVar = 3.14159F; // 접미어 F or f
+			double doubleVar = 3.14159;
+			
+			System.out.println(floatVar);
+			System.out.println(doubleVar);
+			
+			//지수 표기법
+			doubleVar = 3E10;	//	3 * 10 ^ 10
+			floatVar = 3e-6f;	//	3 * 10 ^ -6
+			
+			System.out.println(floatVar);
+			System.out.println(doubleVar);
+			
+		}
 		// 정수형 데이터 타입
-	private static void integerEx() {
+	private static void IntegerEx() {
 		// byte(1) < short(2) < int(4) < long(8)
 		int intVar1, intVar2; //  선언
 		
