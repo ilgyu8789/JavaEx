@@ -7,30 +7,31 @@ public class OperatorEx {
 		bitOperEx();
 	}
 	
+	// 비트 연산자
+			private static void bitOperEx() {
+				byte b1 = 0b1101;
+				byte b2 = 0b0111;
+			
+				System.out.println("b1:" + Integer.toBinaryString(b1));
+				System.out.println("b2:" + Integer.toBinaryString(b2)); 
+				
+				int result = b1 & b2;
+				System.out.println("b1 & b2 : " + Integer.toBinaryString(result));
+				
+				result = b1 | b2;	// 비트 논리합
+				System.out.println("b1 | b2 : " + Integer.toBinaryString(result));
+				
+				result = ~b1;	// 비트 논리 부정
+				System.out.println("~b1 :" + Integer.toBinaryString(result));
+				
+				result = b1 ^ b2;	// 배타적 논리합
+				System.out.println("b1 ^ b2 :" + Integer.toBinaryString(result));
+			}
 	// 비교 연산과 논리 연산
 	private static void logicOperEx() {
 		int a = 7, b = 3;
+	
 		
-		// 비트 연산자
-		private static void bitOperEx() {
-			byte b1 = 0b1101;
-			byte b2 = 0b0111;
-			
-			System.out.println("b1:" + Integer.toBinaryString(b1));
-			System.out.println("b2:" + Integer.toBinaryString(b2)); 
-			
-			int result = b1 & b2;
-			System.out.println("b1 & b2 : " + Integer.toBinaryString(result));
-			
-			result = b1 | b2;	// 비트 논리합
-			System.out.println("b1 | b2 : " + Integer.toBinaryString(result));
-			
-			result = ~b1;	// 비트 논리 부정
-			System.out.println("~b1 :" + Integer.toBinaryString(result));
-			
-			result = b1 ^ b2;	// 배타적 논리합
-			System.out.println("b1 ^ b2 :" + Integer.toBinaryString(result));
-		}
 		
 		// 비교 연산자: >, >=, <, <=, ==(같다), !(같지 않다)
 		System.out.println("a > b ?" + (a > b));
