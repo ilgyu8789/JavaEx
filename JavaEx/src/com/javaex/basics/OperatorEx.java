@@ -2,11 +2,11 @@ package com.javaex.basics;
 
 public class OperatorEx {
 	public static void main(String[] args) {
-//		arithOperEx();
+		arithOperEx();
 //		logicOperEx();
 //		bitOperEx();
 //		bitShiftOperEx();
-		conditionalOperEx();
+//		conditionalOperEx();
 	}
 	
 	// 3항 연산자
@@ -124,7 +124,7 @@ public class OperatorEx {
 		
 		// 실제 해 구하기
 		System.out.println((float)a / (float)b);
-		System.out.println((float)a / b); // 현 변환 -> 자동 타입 변환으로 float으로 표시
+		System.out.println((float)a / b); // 형 변환 -> 자동 타입 변환으로 float으로 표시
 		
 		// 증감 연산자: ++, --
 		// 전치 증감(++a 등), 후치 증감(b--) 혼동하지 말 것
