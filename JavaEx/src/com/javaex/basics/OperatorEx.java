@@ -11,7 +11,7 @@ public class OperatorEx {
 			private static void bitOperEx() {
 				byte b1 = 0b1101;
 				byte b2 = 0b0111;
-			
+//			@@
 				System.out.println("b1:" + Integer.toBinaryString(b1));
 				System.out.println("b2:" + Integer.toBinaryString(b2)); 
 				
