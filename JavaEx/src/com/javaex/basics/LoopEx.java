@@ -7,10 +7,50 @@ public class LoopEx {
 	public static void main(String[] args) {
 //		whileEx();
 //		whileGugu();
-		doWhileEx();
+//		doWhileEx();
+//		continueEx();
+//		Practice01Ex();
+		Practice02Ex();
 		System.out.println("End of Code");
 	}
 
+	private static void Practice01Ex() {
+		// for문을 이용한 구구단 
+		String a = "*";
+		while(a.length() < 11) {
+			
+			System.out.println(a);
+				a = a + "*";		
+		}
+	}
+		
+	private static void Practice02Ex() {
+		// while문을 이용한 구구단 
+		Scanner sc = new Scanner(System.in);
+		int dan;
+		int i = 2;
+		
+		while (i < 10) {
+			int j = 1;
+			while (j  < 10) {
+				System.out.printf("%d * %d = %d\n", i, j, i * j);
+				j++;
+			}
+			i++;
+		}
+	}
+	
+	private static void continueEx() {
+		for (int i = 1; i <= 20; i++) {
+			// 2의 배수 3의 배수는 출력하지 않음 !
+			if (i % 2 == 0 || i % 3 == 0)
+				continue;
+			System.out.println(i);
+		}
+		
+		
+	}
+	
 	private static void doWhileEx() {
 		//	적어도 한번은 수행되어야 하는 반복,
 		//	반복 조건이 반복문 내부에서 할당되는 경우
