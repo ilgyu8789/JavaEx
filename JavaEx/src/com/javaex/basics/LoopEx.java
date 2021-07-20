@@ -11,11 +11,12 @@ public class LoopEx {
 //		continueEx();
 //		Practice01Ex();
 		Practice02Ex();
+//		Practice03Ex();
 		System.out.println("End of Code");
 	}
 
 	private static void Practice01Ex() {
-		// for문을 이용한 구구단 
+		// while문을 이용한 피라미드
 		String a = "*";
 		while(a.length() < 11) {
 			
@@ -25,6 +26,9 @@ public class LoopEx {
 	}
 		
 	private static void Practice02Ex() {
+		// for문을 이용한 구구단
+	}
+	private static void Practice03Ex() {
 		// while문을 이용한 구구단 
 		Scanner sc = new Scanner(System.in);
 		int dan;
@@ -97,3 +101,4 @@ public class LoopEx {
 	}
 
 }
+// 구구단, *피라미드
