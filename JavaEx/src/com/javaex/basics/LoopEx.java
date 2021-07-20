@@ -9,9 +9,39 @@ public class LoopEx {
 //		whileGugu();
 //		doWhileEx();
 //		forGugu();
-		continueEx();
+//		continueEx();
+//		Practice01Ex();
+		Practice02Ex();
 		System.out.println("End of Code");
 	}
+	
+	private static void Practice01Ex() {
+		// while문을 이용한 피라미드
+		String a = "*";
+		while(a.length() < 11) {
+			
+			System.out.println(a);
+				a = a + "*";		
+		}
+	}
+	
+	private static void Practice02Ex() {
+		// while문을 이용한 구구단 
+		Scanner sc = new Scanner(System.in);
+		int dan;
+		int i = 2;
+		
+		while (i < 10) {
+			int j = 1;
+			while (j  < 10) {
+				System.out.printf("%d * %d = %d\n", i, j, i * j);
+				j++;
+			}
+			i++;
+		}
+	}
+	
+	
 	
 	private static void continueEx() {
 		for (int i = 1;
