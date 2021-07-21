@@ -19,3 +19,4 @@ public class EnumEx {
 				obj.name(), obj.ordinal());
 	}
 }
+//7.21
