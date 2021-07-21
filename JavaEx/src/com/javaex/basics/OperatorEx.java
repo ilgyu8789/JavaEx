@@ -2,11 +2,11 @@ package com.javaex.basics;
 
 public class OperatorEx {
 	public static void main(String[] args) {
-		arithOperEx();
+//		arithOperEx();
 //		logicOperEx();
 //		bitOperEx();
 //		bitShiftOperEx();
-//		conditionalOperEx();
+		conditionalOperEx();
 	}
 	
 	// 3항 연산자
