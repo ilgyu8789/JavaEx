@@ -13,3 +13,6 @@ public class Problem03 {
 		}	
 	}
 }
+
+
+//	구구단 출력.
