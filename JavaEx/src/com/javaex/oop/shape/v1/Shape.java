@@ -1,8 +1,8 @@
-package com.javaex.oop.shape.v2;
+package com.javaex.oop.shape.v1;
 
 //	추상 클래스
 //	자식 클래스에게 필드와 메서드를 물려주는 역할
-//	 그 자체로 객체화 될 수는 없다
+//	그 자체로 객체화 될 수는 없다
 public abstract class Shape {
 	//	필드
 	protected int x;
@@ -15,8 +15,8 @@ public abstract class Shape {
 	}
 	
 	//	최소 1개의 추상 메서드가 있어야 한다
-	//	상속 받은 실제 클래스는 추상 메서드를 반드시 구현해야 한다
-//	public abstract void draw();	//	-> interface에 위임한다
+	//	상속받은 실체 클래스는 추상 메서드를
+	//	반드시 구현 해야만 한다
+	public abstract void draw();
 	public abstract double area();
 }
-
