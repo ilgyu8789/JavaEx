@@ -1,4 +1,4 @@
-package com.javaex.oop.goods.v3;
+package com.javaex.oop.study;
 
 public class SongClass {
 	//	필드 선언

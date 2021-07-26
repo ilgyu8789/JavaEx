@@ -2,7 +2,7 @@ package com.javaex.oop.shape.v2;
 
 //	추상 클래스
 //	자식 클래스에게 필드와 메서드를 물려주는 역할
-// 그 자체로 객체화 될 수는 없다
+//	 그 자체로 객체화 될 수는 없다
 public abstract class Shape {
 	//	필드
 	protected int x;

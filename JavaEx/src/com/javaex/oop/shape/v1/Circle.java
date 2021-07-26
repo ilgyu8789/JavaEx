@@ -4,8 +4,8 @@ public class Circle extends Shape {
 	//	필드
 	protected double radius;	//	반지름
 	
-	// 	생성자
-	public Circle (int x, int y, double radius) {
+	//	생성자
+	public Circle(int x, int y, double radius) {
 		super(x, y);
 		this.radius = radius;
 	}
@@ -13,10 +13,9 @@ public class Circle extends Shape {
 	//	추상 메서드 구현
 	@Override
 	public void draw() {
-		System.out.printf("원[x=%d, y=%d, r=%f, area=%f]을 그렸습니다.%n",
-				x, y, radius, area());
-		
-
+		System.out.printf(
+			"원[x=%d, y=%d, r=%f, area=%f]을 그렸습니다.%n",
+			x, y, radius, area());
 	}
 
 	@Override
