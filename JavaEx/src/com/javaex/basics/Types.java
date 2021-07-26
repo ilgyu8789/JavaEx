@@ -7,7 +7,7 @@ public class Types {
 
 	public static void main(String[] args) {
 		// varEx();
-//		IntegerEx();
+		//IntegerEx();
 		// floatDoubleEx();
 		// booleanEx();
 		// charEx();
@@ -68,7 +68,7 @@ public class Types {
 		System.out.println("현재 도로의 제한 속도는 " + SPEED_LIMIT + "입니다.");
 		// 코드의 가독성과 코드의 변경이 용이해진다
 
-		SPEED_LIMIT = 160; // 변경 시도 불가 -> 이전 선언에 final을 선언했기때문
+//		SPEED_LIMIT = 160; // 변경 시도 불가 -> 이전 선언에 final을 선언했기때문
 		System.out.println("제한속도:" + SPEED_LIMIT);
 		System.out.println("현재 도로의 제한 속도는 " + SPEED_LIMIT + "입니다.");
 
