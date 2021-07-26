@@ -27,7 +27,7 @@ public class StringEx {
 		//	현재 이자율을 ___% 입니다.
 		fmt = "현재 이자율은 %f%%입니다.%n";
 		System.out.printf(fmt, rate);
-		fmt = "현재 이자율은 %.2f%%입니다.%n";
+		fmt = "현재 이자율은 %.2f%%입니다.%n"; 
 		System.out.printf(fmt, rate);
 	}
 	
