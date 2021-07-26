@@ -15,6 +15,7 @@ public class Problem05 {
 	      int num3 = scanner.nextInt();
 	      System.out.print("숫자:");
 	      int num4 = scanner.nextInt();
+	      
 	      System.out.print("숫자:");
 	      int num5 = scanner.nextInt();
 	      
