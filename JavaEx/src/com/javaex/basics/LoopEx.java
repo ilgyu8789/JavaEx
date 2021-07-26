@@ -7,7 +7,7 @@ public class LoopEx {
 	public static void main(String[] args) {
 //		whileEx();
 //		whileGugu();
-//		doWhileEx();
+//		doWhileEx();  
 //		forGugu();
 //		continueEx();
 //		Practice01Ex();
