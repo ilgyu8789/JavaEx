@@ -1,7 +1,7 @@
 package com.javaex.api.objectclass.v3;
 
-public class Rectangle {
-//	필드
+public class Rectangle implements Cloneable {
+	//	필드
 	private int width;
 	private int height;
 	
