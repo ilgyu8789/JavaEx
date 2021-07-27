@@ -1,30 +1,30 @@
 package com.javaex.api.objectclass.v2;
 
 public class Circle {
-	
-	private int x;
-	private int y;
-	private int r;
-	
-	public Circle(int x, int y, int r) {
-		this.x = x;
-		this.y = y;
-		this.r = r;
-	}
-	@Override
-	public String toString() {
-		//	객체 출력 포맷을 리턴해주기
-		return String.format("Point(%d, %d)", x, y);
-	}
+	// 필드
+		private int x;
+		private int y;
+		private int radius;
 
-	@Override
-	public boolean equals(Object obj) {
-		//	전달 받은 obj가 Point 클래스의 객체인가?
-		if (obj instanceof Point) {
-			//	캐스팅 가능
-			Point other = (Point)obj;
+		// 생성자
+		public Circle(int x, int y, int radius) {
+			this.x = x;
+			this.y = y;
+			this.radius = radius;
 		}
-		return super.equals(obj);
+
+		@Override
+		public boolean equals(Object obj) {
+			if (obj instanceof Circle) {
+				// 캐스팅
+				Circle other = (Circle) obj;
+				return radius == other.radius;
+			}
+			return super.equals(obj);
+		}
+
+		@Override
+		public String toString() {
+			return "Circle [x=" + x + ", y=" + y + ", radius=" + radius + "]";
+		}
 	}
-	
-}
