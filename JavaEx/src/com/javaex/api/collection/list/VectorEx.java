@@ -68,7 +68,7 @@ public class VectorEx {
 		}
 		System.out.println();
 
-		// 버퍼 비우기.
+		// 버퍼 비우기
 		v.clear();
 		System.out.printf("Size: %d, Capacity: %d%n", v.size(), v.capacity());
 
