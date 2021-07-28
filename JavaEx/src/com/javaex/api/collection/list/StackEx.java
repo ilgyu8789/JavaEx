@@ -17,7 +17,7 @@ public class StackEx {
 		
 		//	가장 위쪽 데이터 확인
 		System.out.println("PEEK:" + stack.peek());	
-		//	데이터를 확인만 하고 지우지는 않음
+		//	데이터를 확인만 하고 지우지는 않음 !
 		
 		
 		while(!stack.empty()) {

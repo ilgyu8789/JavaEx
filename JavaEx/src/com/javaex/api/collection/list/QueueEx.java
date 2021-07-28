@@ -19,7 +19,7 @@ public class QueueEx {
 		System.out.println("PEEK:" + queue.peek());
 		System.out.println("QUEUE:" + queue);	//	0이 삭제되지 않고 출력
 		
-		//	poll 할 때는 반드시 비어있는지 확인
+		//	poll 할 때는 반드시 비어있는지 확인!
 		while(!queue.isEmpty()) {
 			System.out.println("POLL:" + queue.poll());
 			System.out.println("QUEUE:" + queue);

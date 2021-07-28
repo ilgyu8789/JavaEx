@@ -44,7 +44,7 @@ public class ListEx {
 		}
 		System.out.println();
 
-		// 리스트 비우기
+		// 리스트 비우기.
 		lst.clear();
 		System.out.println(lst);
 	}
