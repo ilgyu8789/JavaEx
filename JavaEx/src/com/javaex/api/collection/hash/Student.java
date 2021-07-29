@@ -1,4 +1,4 @@
-package com.javaex.api.collection.hash;
+package com.javaex.api.collection.hash; 
 
 public class Student {
 	//	필드

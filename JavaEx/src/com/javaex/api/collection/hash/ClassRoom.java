@@ -22,7 +22,7 @@ public class ClassRoom {
 
 	@Override
 	public int hashCode() {
-		return subject.hashCode();
+		return subject.hashCode(); 
 	}
 
 	@Override
