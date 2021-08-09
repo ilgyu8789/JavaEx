@@ -7,12 +7,12 @@ public class PhoneBookMain {
 	public static void main(String[] args) {
 
 		int num = 0;
-		// 클래스를 붑러오는 방법 = 클래스명 변수명 = new 클래스명();
+		// 클래스를 붑러오는 방법 : 클래스명 변수명 = new 클래스명();
 		UserList User = new UserList();
-
+		User.PhoneNumBook();
 		while (num != 5) {
 			Scanner scan = new Scanner(System.in);
-
+			
 			System.out.println("******************");
 			System.out.println("*전화번호 관리 프로그램*");
 			System.out.println("******************");
