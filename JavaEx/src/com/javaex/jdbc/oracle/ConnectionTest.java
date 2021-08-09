@@ -6,7 +6,7 @@ public class ConnectionTest {
 
 	public static void main(String[] args) {
 		//	DB 접속 URL
-		String dburl = "jdbc:oracle:thin:@localhost:1521:xc";
+		String dburl = "jdbc:oracle:thin:@localhost:1521:xe";
 		String dbuser = "C##BITUSER";
 		String dbpass = "C##BITUSER";
 		
