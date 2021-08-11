@@ -34,19 +34,17 @@ public class Client {
 			System.out.println("[서버에 연결되었습니다.]");
 			
 			//	스트림 열기
-			//	송신을 위한 output스트림
 			OutputStream os = socket.getOutputStream();
 			Writer osw = new OutputStreamWriter(os, "UTF-8");
 			BufferedWriter bw = new BufferedWriter(osw);
 			
-			//	수신을 위한 input스트림
 			InputStream is = socket.getInputStream();
 			Reader isr = new InputStreamReader(is);
 			BufferedReader br = new BufferedReader(isr);
 			
 			//	키보드에서 메시지 입력
 			Scanner scanner = new Scanner(System.in);
-			//	scanner 에 /q 입력하면 종료되게
+			//	scanner에 /q 입력하면 종료
 			while(true) {
 				String message = scanner.nextLine(); //	한 줄 입력
 				
@@ -62,7 +60,7 @@ public class Client {
 				System.out.println("서버로 전송한 메시지:" + message);
 				
 				String echoMsg = br.readLine();	//	한 줄 읽기
-				System.out.println("서버로부터 Echo 된 메시지:" + echoMsg);	
+				System.out.println("서버로부터 Echo 된 메시지:" + echoMsg);
 			}
 			
 			scanner.close();
