@@ -3,7 +3,7 @@ package com.javaex.jdbc.oracle;
 import java.util.Scanner;
 import java.sql.*;
 
-public class HRSearchEmployee {
+public class HESearchEmployee {
 	private static String dburl = "jdbc:oracle:thin:@localhost:1521:xe";
 	
 	public static void main(String[] args) {
